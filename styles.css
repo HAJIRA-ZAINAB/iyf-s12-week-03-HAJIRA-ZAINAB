@@ -156,5 +156,5 @@ a:focus, button:focus{
 
 /*Task 6.1 Style: add navigation hover underline */
 nav a:hover {
-  text-decoration;
+  text-decoration:underline;
 }
