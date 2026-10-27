@@ -74,3 +74,23 @@ Answer: No contact file in this folder
 4. Command: git commit -m "Docs: add terminal log"
    Result: commit created
    Answer: completed with 3 commits
+
+   # Terminal Log - Task 6.2 Branching
+   
+   1. Command: git checkout -b fix/accessibility color contrast
+      Result: new branch created
+   
+   2. Command: git commit -m "Fix: improve accessibility color contrast"
+      Result: fixed --color-muted to #212529
+
+   3. Command: git checkout main && git merge fix/accessibility-color-contrast
+      Result: merged to main
+
+   4. Command: git checkout -b feat/responsive-nav
+      Result: new branch for responsive nav
+
+   5. Command: git commit -m "Feat: add responsive navigations for mobile"
+      Result: added @media max-width 768px
+
+   6. Command git checkout main && git merge feat/responsive-nav && git push
+      Result: both features in main, pushed 0652c23 -> main
