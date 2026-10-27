@@ -158,3 +158,10 @@ a:focus, button:focus{
 nav a:hover {
   text-decoration:underline;
 }
+
+/* Task 6.1 Fix correct responsive breakpoint for projects grid */
+@media (max-width: 800px){
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
