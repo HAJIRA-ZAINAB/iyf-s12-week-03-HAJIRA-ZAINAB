@@ -21,15 +21,15 @@ A responsive personal portfolio website built for IYF Season 12 Week 03. This pr
 
 ## Project Structure
 iyf-s12-week-03-HAJIRA-ZAINAB/
-├── index.html
-├── about.html
-├── projects.html
-├── contact.html
-├── css/
-│   └── styles.css
-├── images/
-│   └── screenshot.png
-└── README.md
+- ├── index.html
+- ├── about.html
+- ├── projects.html
+- ├── contact.html
+- ├── css/
+- │   └── styles.css
+- ├── images/
+- │   └── screenshot.png
+- └── README.md
 
 ## What I Learned
 - I learned the complete Git workflow: cloning a repo, creating branches like feat/responsive-nav and fix/accessibility-color-contrast, making meaningful commits, pushing to origin, and merging to main.
